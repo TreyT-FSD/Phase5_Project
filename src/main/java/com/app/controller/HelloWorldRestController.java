@@ -17,7 +17,7 @@ public class HelloWorldRestController {
 	@RequestMapping("/")
 	public String sayHello() {
 		logger.info("Hello World Rest Controller Triggered at " + LocalDateTime.now());
-		return "Hello world Rest Controller docker test";
+		return "Hello world Rest Controller docker test123";
 	}
 
 }
