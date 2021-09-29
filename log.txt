@@ -1,0 +1,90 @@
+21:43:04,681 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+21:43:04,682 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+21:43:04,682 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml]
+21:43:04,705 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4ee285c6 - URL [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/classes!/logback.xml] is not of type file
+21:43:04,752 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+21:43:04,763 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@621be5d1 - Adding [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/base.xml] to configuration watch list.
+21:43:04,763 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4ee285c6 - URL [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/base.xml] is not of type file
+21:43:04,765 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@621be5d1 - Adding [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/defaults.xml] to configuration watch list.
+21:43:04,765 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4ee285c6 - URL [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/defaults.xml] is not of type file
+21:43:04,767 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word clr with class [org.springframework.boot.logging.logback.ColorConverter]
+21:43:04,767 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wex with class [org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter]
+21:43:04,767 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word wEx with class [org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter]
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.startup.DigesterFactory] to ERROR
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.catalina.util.LifecycleBase] to ERROR
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.coyote.http11.Http11NioProtocol] to WARN
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.sshd.common.util.SecurityUtils] to WARN
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.tomcat.util.net.NioSelectorPool] to WARN
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty.util.component.AbstractLifeCycle] to ERROR
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.hibernate.validator.internal.util.Version] to WARN
+21:43:04,771 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.boot.actuate.endpoint.jmx] to WARN
+21:43:04,772 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@621be5d1 - Adding [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/console-appender.xml] to configuration watch list.
+21:43:04,772 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4ee285c6 - URL [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/console-appender.xml] is not of type file
+21:43:04,773 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+21:43:04,777 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+21:43:04,782 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:43:04,818 |-INFO in ch.qos.logback.core.joran.util.ConfigurationWatchListUtil@621be5d1 - Adding [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/file-appender.xml] to configuration watch list.
+21:43:04,818 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4ee285c6 - URL [jar:file:/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/spring-boot-2.5.2.jar!/org/springframework/boot/logging/logback/file-appender.xml] is not of type file
+21:43:04,820 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+21:43:04,823 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+21:43:04,824 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:43:04,829 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1463801669 - setting totalSizeCap to 0 Bytes
+21:43:04,831 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1463801669 - Archive files will be limited to [10 MB] each.
+21:43:04,833 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1463801669 - Will use gz compression
+21:43:04,834 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1463801669 - Will use the pattern /tmp/spring.log.%d{yyyy-MM-dd}.%i for the active file
+21:43:04,836 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15327b79 - The date pattern is 'yyyy-MM-dd' from file name pattern '/tmp/spring.log.%d{yyyy-MM-dd}.%i.gz'.
+21:43:04,836 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15327b79 - Roll-over at midnight.
+21:43:04,838 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@15327b79 - Setting initial period to Sat Sep 25 21:43:04 UTC 2021
+21:43:04,841 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: /tmp/spring.log
+21:43:04,841 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [/tmp/spring.log]
+21:43:04,842 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+21:43:04,842 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+21:43:04,843 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+21:43:04,843 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [net.logstash.logback.appender.LogstashTcpSocketAppender]
+21:43:04,851 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [logstash]
+21:43:04,852 |-WARN in ch.qos.logback.core.joran.util.PropertySetter@4f2410ac - No setter for property [Encoding] in net.logstash.logback.appender.LogstashTcpSocketAppender.
+21:43:05,033 |-WARN in net.logstash.logback.appender.LogstashTcpSocketAppender[logstash] - <remoteHost>/<port> are DEPRECATED, use <destination> instead
+21:43:05,051 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+21:43:05,051 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [logstash] to Logger[ROOT]
+21:43:05,051 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+21:43:05,051 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@722c41f4 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.2)
+
+2021-09-25 21:43:05.412  INFO 1 --- [           main] com.app.Application                      : Starting Application v0.0.1-SNAPSHOT using Java 1.8.0_302 on b4d9c496215d with PID 1 (/SpringBootHelloWorld-0.0.1-SNAPSHOT.jar started by root in /)
+2021-09-25 21:43:05.413  INFO 1 --- [           main] com.app.Application                      : No active profile set, falling back to default profiles: default
+2021-09-25 21:43:06.009  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-25 21:43:06.075  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2021-09-25 21:43:06.510  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2021-09-25 21:43:06.519  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-25 21:43:06.519  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-09-25 21:43:06.635  INFO 1 --- [           main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-09-25 21:43:06.695  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-25 21:43:06.695  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2021-09-25 21:43:06.904  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-25 21:43:06.940  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-25 21:43:07.049  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-25 21:43:07.125  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-25 21:43:07.458  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-25 21:43:07.472  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-25 21:43:07.924  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-25 21:43:07.930  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-25 21:43:08.238  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-25 21:43:08.700  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2021-09-25 21:43:08.711  INFO 1 --- [           main] com.app.Application                      : Started Application in 3.582 seconds (JVM running for 4.269)
+2021-09-25 21:43:38.516  INFO 1 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-25 21:43:38.516  INFO 1 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-25 21:43:38.517  INFO 1 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-25 21:43:38.537  INFO 1 --- [nio-8085-exec-1] c.a.controller.HelloWorldRestController  : Hello World Rest Controller Triggered at 2021-09-25T21:43:38.537
+2021-09-25 21:43:41.581  INFO 1 --- [nio-8085-exec-2] c.a.controller.HelloWorldRestController  : Hello World Rest Controller Triggered at 2021-09-25T21:43:41.581
+2021-09-25 21:43:42.507  INFO 1 --- [nio-8085-exec-3] c.a.controller.HelloWorldRestController  : Hello World Rest Controller Triggered at 2021-09-25T21:43:42.507
+2021-09-25 21:46:26.740  INFO 1 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-09-25 21:46:26.743  INFO 1 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-09-25 21:46:26.747  INFO 1 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
